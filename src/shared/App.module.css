@@ -1,0 +1,28 @@
+@import '@csstools/normalize.css';
+@import './variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@300;400;500;600;700&display=swap');
+/* @import-normalize; */
+
+:global(body) {
+    margin: 0;
+    padding: 0;
+    font-family: 'Maitree', Arial, Sans-Serif;
+    font-size: var(--font-size-base);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 100%;
+    h1 {
+        font-size: var(--font-size-h1);
+    }
+}
+
+.reactLogo {
+    height: 48px;
+    vertical-align: middle;
+    width: 48px;
+}

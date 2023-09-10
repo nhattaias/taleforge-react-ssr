@@ -1,0 +1,31 @@
+.card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    width: 150px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.1); /* Khi hover, tăng tỷ lệ lên 1.1 lần */
+}
+
+.card__thumbnail {
+    width: auto;
+    aspect-ratio: 15/21;
+    object-fit: cover;
+    box-sizing: content-box;
+    border-radius: 8px;
+}
+.card__title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 4px 0;
+    color: #fff;
+}
+.card__author {
+    font-size: 0.5rem;
+    font-weight: 300;
+    color: rgb(255, 255, 225, 0.5);
+}

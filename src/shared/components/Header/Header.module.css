@@ -1,0 +1,51 @@
+.header {
+    background-color: var(--primary-color);
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 67px;
+    align-items: center;
+}
+
+.header > * {
+    cursor: pointer;
+    transition: text-shadow 0.2s;
+}
+
+.header > *:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
+
+.header__logo {
+    margin-right: 16px;
+    height: auto;
+}
+
+.header__label {
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-left: 24px;
+}
+
+.header__icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 16px;
+    fill: #fff;
+    transition: filter 0.2s; /* Thêm transition cho thuộc tính filter */
+}
+
+.header__icon:hover {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 1));
+}
+
+.header__icon_first {
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+}
+
+.header__label_auth {
+    margin-left: 24px;
+}

@@ -1,0 +1,25 @@
+.authorsPage {
+    background-color: #101422;
+    display: flex;
+    flex-direction: column;
+    padding: 56px 55px;
+}
+.authorsPage__label {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 32px;
+    padding-left: 12px;
+}
+.authorsPage__authors {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+}
+.authorsPage__authors > li {
+    max-width: 200px;
+}

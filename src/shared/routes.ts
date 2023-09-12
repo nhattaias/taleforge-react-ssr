@@ -3,6 +3,10 @@ const routes = {
     home: '/',
     page1: '/page-1',
     page2: '/page-2',
+    newRelease: '/newRelease',
+    lastest: '/lastest',
+    authorsPage: '/authors',
+    filtersPage: '/filters',
 };
 
 export const getRoute = (

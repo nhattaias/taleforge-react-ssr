@@ -1,0 +1,36 @@
+.paginationControl {
+    align-items: center;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+.paginationControl__paginations {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.paginationControl__paginations > * {
+    margin-left: 8px;
+}
+
+.paginationControl__paginations :first-child {
+    margin-left: 0px;
+}
+.paginationControl__navigations {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.paginationControl__navigations > * {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 16px;
+    transition: filter 0.2s;
+}
+
+.paginationControl__navigations > *:hover {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 1));
+}

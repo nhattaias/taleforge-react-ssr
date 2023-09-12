@@ -4,14 +4,18 @@
 /* @import-normalize; */
 
 :global(body) {
-    margin: 0;
-    padding: 0;
+    color: #fff;
     font-family: 'Maitree', Arial, Sans-Serif;
     font-size: var(--font-size-base);
-}
-* {
     margin: 0;
     padding: 0;
+}
+.Header {
+    background-color: #fff;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
 
 .wrapper {

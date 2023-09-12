@@ -1,0 +1,29 @@
+.pagination {
+    align-items: center;
+    background-color: #5e688d;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    transition: box-shadow 0.2s;
+    width: 40px;
+}
+.pagination:hover {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+.pagination_transparent {
+    background-color: transparent;
+    transition: filter 0.2s;
+}
+
+.pagination_transparent:hover {
+    background-color: transparent;
+    box-shadow: none;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 1));
+}
+
+.pagination__index {
+    font-size: 16px;
+    font-weight: 400;
+}

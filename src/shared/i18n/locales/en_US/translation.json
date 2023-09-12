@@ -6,6 +6,7 @@
   "nav": {
     "home": "Homepage",
     "page-1": "Example Page 1",
-    "page-2": "Example Page 2"
+    "page-2": "Example Page 2",
+    "newRelease": "New Release"
   }
 }

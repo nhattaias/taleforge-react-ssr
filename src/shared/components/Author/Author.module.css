@@ -1,0 +1,16 @@
+.author {
+    align-items: center;
+    background-color: #5e688d;
+    border-radius: 16px;
+    display: inline-flex;
+    font-size: 0.875rem;
+    font-weight: 500;
+    justify-content: center;
+    padding: 8px 16px;
+    word-wrap: break-word;
+}
+.author > p {
+    margin: 0;
+    max-width: 200px;
+    padding: 0;
+}

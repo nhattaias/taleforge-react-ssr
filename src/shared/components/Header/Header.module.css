@@ -1,10 +1,14 @@
 .header {
+    align-items: center;
     background-color: var(--primary-color);
-    height: 56px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
+    height: 56px;
     padding: 0 67px;
-    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1998;
 }
 
 .header > * {
@@ -17,8 +21,10 @@
 }
 
 .header__logo {
+    align-items: center;
+    display: flex;
+    height: 100%;
     margin-right: 16px;
-    height: auto;
 }
 
 .header__label {
@@ -26,14 +32,15 @@
     font-size: 0.875rem;
     font-weight: 600;
     margin-left: 24px;
+    text-decoration: none;
 }
 
 .header__icon {
-    width: 20px;
+    fill: #fff;
     height: 20px;
     margin: 0 16px;
-    fill: #fff;
     transition: filter 0.2s; /* Thêm transition cho thuộc tính filter */
+    width: 20px;
 }
 
 .header__icon:hover {
@@ -41,9 +48,9 @@
 }
 
 .header__icon_first {
-    width: 16px;
     height: 16px;
     margin-left: auto;
+    width: 16px;
 }
 
 .header__label_auth {

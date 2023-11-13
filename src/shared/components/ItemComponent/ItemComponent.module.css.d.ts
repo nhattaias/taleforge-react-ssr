@@ -1,4 +1,4 @@
 declare const styles: {
-    readonly author: string;
+    readonly item: string;
 };
 export = styles;

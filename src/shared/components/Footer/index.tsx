@@ -5,7 +5,7 @@ import { ReactComponent as ReactGithubIcon } from '../../assets/icon-github.svg'
 import { ReactComponent as ReactTelegramIcon } from '../../assets/icon-telegram.svg';
 import { ReactComponent as ReactInstagramIcon } from '../../assets/icon-instagram.svg';
 import { ReactComponent as ReactFigmaIcon } from '../../assets/icon-figma.svg';
-
+import Divider from '../Divider';
 import css from './Footer.module.css';
 
 const Footer = () => {
@@ -40,8 +40,7 @@ const Footer = () => {
                 <span>Team</span>
             </div>
             <p className={css.footer__contact}>Contact Us</p>
-
-            <div className={css.footer__divider} />
+            <Divider />
             <p className={css.footer__copyright}>© 2023 All Rights Reserved</p>
         </div>
     );

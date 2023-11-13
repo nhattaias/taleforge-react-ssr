@@ -1,6 +1,6 @@
 .wrapper {
-    background-color: #101422;
     display: flex;
+    flex: 1;
     flex-direction: column;
     padding: 56px 55px;
 }

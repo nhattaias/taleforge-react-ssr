@@ -30,16 +30,18 @@ const App: React.FC<any> = () => {
                 titleTemplate="%s – React SSR Starter – TypeScript Edition"
                 link={[{ rel: 'icon', type: 'image/png', href: favicon }]}
             />
-            <Switch>
-                <Route exact path={routes.home} component={Home} />
-                <Route exact path={routes.page1} component={Page1} />
-                <Route exact path={routes.page2} component={Page2} />
-                <Route exact path={routes.newRelease} component={NewRealease} />
-                <Route exact path={routes.lastest} component={Lastest} />
-                <Route exact path={routes.authorsPage} component={AuthorsPage} />
-                <Route exact path={routes.filtersPage} component={FiltersPage} />
-                <Route render={() => '404!'} />
-            </Switch>
+            <div className={css.content}>
+                <Switch>
+                    <Route exact path={routes.home} component={Home} />
+                    <Route exact path={routes.page1} component={Page1} />
+                    <Route exact path={routes.page2} component={Page2} />
+                    <Route exact path={routes.newRelease} component={NewRealease} />
+                    <Route exact path={routes.lastest} component={Lastest} />
+                    <Route exact path={routes.authorsPage} component={AuthorsPage} />
+                    <Route exact path={routes.filtersPage} component={FiltersPage} />
+                    <Route render={() => '404!'} />
+                </Switch>
+            </div>
             <Footer />
             {/* <h2>{t('router-headline')}</h2>
             <ul>

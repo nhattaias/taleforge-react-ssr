@@ -48,12 +48,6 @@
     font-weight: 400;
     margin-left: 40px;
 }
-
-.footer__divider {
-    background-color: white;
-    height: 1px;
-    width: 80%;
-}
 .footer__copyright {
     font-size: 12px;
     font-weight: 300;

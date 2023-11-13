@@ -1,6 +1,6 @@
 .home {
-    background-color: #101422;
     display: flex;
+    flex: 1;
     flex-direction: column;
     padding: 32px 55px;
 }

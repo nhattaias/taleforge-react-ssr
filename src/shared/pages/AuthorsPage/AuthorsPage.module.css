@@ -1,6 +1,6 @@
 .authorsPage {
-    background-color: #101422;
     display: flex;
+    flex: 1;
     flex-direction: column;
     padding: 56px 55px;
 }
@@ -8,8 +8,8 @@
     color: #fff;
     font-size: 1.5rem;
     font-weight: 600;
+    margin-bottom: 16px;
     margin-top: 32px;
-    padding-left: 12px;
 }
 .authorsPage__authors {
     display: grid;
@@ -21,5 +21,13 @@
     padding: 0;
 }
 .authorsPage__authors > li {
+    margin-top: 16px;
     max-width: 200px;
+}
+.authorsPage__result_label {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 16px;
+    margin-top: 32px;
 }

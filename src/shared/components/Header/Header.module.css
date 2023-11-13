@@ -39,7 +39,7 @@
     fill: #fff;
     height: 20px;
     margin: 0 16px;
-    transition: filter 0.2s; /* Thêm transition cho thuộc tính filter */
+    transition: filter 0.2s;
     width: 20px;
 }
 

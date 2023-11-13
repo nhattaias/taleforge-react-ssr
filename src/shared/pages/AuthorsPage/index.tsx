@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from '../../components/Header';
 import PaginationControl from '../../components/PaginationControl';
-import AuthorComponent from '../../components/Author';
+import ItemComponent from '../../components/ItemComponent';
 import FormSearch from '../../components/FormSearch';
+import Divider from '../../components/Divider';
 import css from './AuthorsPage.module.css';
 
 const AuthorsPage = () => {
@@ -10,60 +11,58 @@ const AuthorsPage = () => {
         <React.Fragment>
             <Header />
             <div className={css.authorsPage}>
-                <div className={css.authorsPage__label}>Authors</div>
+                <h2 className={css.authorsPage__label}>Authors</h2>
                 <FormSearch type="text" placeholder="Searching by author name" />
+                <Divider marginTop="32px" marginBottom="16px" />
                 <ul className={css.authorsPage__authors}>
                     <li>
-                        <AuthorComponent
-                            name="Con đường lên đèn chiều bâng khuâng trên phố dài, từng đàn chim bay theo nhau về cuối bầu trời"
-                            comicCount={15}
-                        />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                     <li>
-                        <AuthorComponent name="Tài Phạm" comicCount={15} />
+                        <ItemComponent name="Tài Phạm" comicCount={15} />
                     </li>
                 </ul>
-                <PaginationControl />
             </div>
+            <PaginationControl />
         </React.Fragment>
     );
 };

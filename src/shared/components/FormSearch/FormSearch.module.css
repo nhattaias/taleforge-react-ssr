@@ -1,6 +1,37 @@
 .inputSearch {
-    color: white;
+    display: flex;
+    flex-direction: row;
+    position: relative;
 }
+
 .inputSearch__inputText {
+    background-color: #181e34;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    box-sizing: border-box;
     color: white;
+    font-family: 'Maitree', Arial, Sans-Serif;
+    height: 44px;
+    margin-right: 32px;
+    max-width: 500px;
+    padding-left: 42px;
+    width: 70%;
+}
+
+.inputSearch__inputText_icon {
+    bottom: 14px;
+    fill: rgba(255, 255, 255, 0.7);
+    height: 16px;
+    left: 14px;
+    position: absolute;
+    width: 16px;
+}
+
+.inputSearch__inputText:focus {
+    border: 2px solid rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+.inputSearch__inputText_icon.focused {
+    fill: white;
 }

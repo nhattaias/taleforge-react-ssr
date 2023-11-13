@@ -19,10 +19,20 @@
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     max-width: 100%;
     h1 {
         font-size: var(--font-size-h1);
     }
+}
+
+.content {
+    background-color: #101422;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 
 .reactLogo {
